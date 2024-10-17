@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+</head>
+<body>
+<script type="text/javascript">
+    let a = prompt("Внеси број за а:");
+    let b = prompt("Внесо број за б:");
+    a = parseInt(a); //parseInt konvertira od string vo cel broj
+    b = parseInt(b);
+    if (!isNaN(a) && !isNaN(b)) {
+        if (a > b) {
+            document.write("Поголемиот број од двата наведени е " + a);
+        } else {
+            document.write("Поголемиот број од двата наведени е " + b);
+        }
+    } else {
+        document.write("Внесовте знак требад да внесите број!");
+    }
+
+</script>
+</body>
+</html>
